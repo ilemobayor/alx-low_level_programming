@@ -1,6 +1,7 @@
 #include "main.h"
 /**
  *reverse_array- prints in reverse
+ *
  *@a: an array of integers
  *@n: the number of elements to swap
  *Return: nothing
@@ -16,7 +17,7 @@ void reverse_array(int *a, int n)
 	while (i < j)
 	{
 		temp = a[i]
-			a[i] = a[j];
+		a[i] = a[j];
 		a[j] = temp;
 		i++;
 		j--;
